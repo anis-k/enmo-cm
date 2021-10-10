@@ -1,13 +1,8 @@
-composer.lock
+
 installed.lck
-apps/maarch_entreprise/xml/config.xml
-apps/maarch_entreprise/xml/config.json
-apps/maarch_entreprise/xml/log4php.xml
 *.log
 test/unitTests/build/
 cypress/
-modules/visa/xml/remoteSignatoryBooks.xml
-package-lock.json
 modules/content_management/dist/maarchCM.jar
 modules/content_management/dist/lib/commons-logging-1.2.jar
 modules/content_management/dist/lib/httpclient-4.5.2.jar
@@ -15,3 +10,4 @@ modules/content_management/dist/lib/httpclient-cache-4.5.2.jar
 modules/content_management/dist/lib/httpclient-win-4.5.2.jar
 modules/content_management/dist/lib/httpcore-4.4.4.jar
 modules/content_management/dist/lib/plugin.jar
+node_modules
