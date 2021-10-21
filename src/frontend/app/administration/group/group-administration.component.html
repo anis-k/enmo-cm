@@ -134,7 +134,7 @@
                                                 style="font-size: 16px;">
                                                 <span [innerHTML]="fakePrivilege.label"></span>
                                                 <mat-form-field
-                                                    style="width: 250px !important;padding-left: 10px;padding-right: 10px;">
+                                                    style="width: 250px !important;padding-left: 10px;padding-right: 10px; border-radius: 5px;">
                                                     <mat-select [(ngModel)]="fakePrivilege.current"
                                                         (selectionChange)="changeDifflistPrivilege($event, fakePrivilege.id)">
                                                         <mat-option value="">{{'lang.noRole' | translate}}</mat-option>

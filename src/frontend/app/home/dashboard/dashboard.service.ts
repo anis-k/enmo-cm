@@ -246,27 +246,28 @@ export class DashboardService {
             label: this.translate.instant('lang.' + chartMode)
         }));
     }
-
+    
     getColors() {
         return [
-            '#ef9a9a',
-            '#f48fb1',
-            '#ce93d8',
-            '#b39ddb',
-            '#9fa8da',
-            '#90caf9',
-            '#81d4fa',
-            '#80deea',
+            '#2f643f',
+            '#2f5564',
+            '#642f2f',
+            '#2e9163',
+            '#2e6991',
+            '#2e3891',
+            '#912e65',
+            '#912e2e',
             '#80cbc4',
             '#a5d6a7',
             '#c5e1a5',
             '#e6ee9c',
             '#fff59d',
-            '#ffe082',
-            '#ffcc80',
-            '#ffab91',
-            '#bcaaa4',
-            '#b0bec5',
+            '#652e91',
+            '#0d1d68',
+            '#0d6815',
+            '#0d5d68',
+            '#680d0d',
+            
         ];
     }
 

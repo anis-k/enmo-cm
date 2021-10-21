@@ -32,15 +32,15 @@
         <mat-icon mat-list-icon class="fa fa-user fa-2x" style="color:white;height: auto;"></mat-icon>
     </button>
     <mat-menu #menu="matMenu" class="headerMaarch">
-        <canvas class="header-bg" width="250" height="70"
-            style="margin-top:-8px;background-size:cover;border-bottom: solid 1px white;" [style.background-image]="'url(../rest/images?image=loginPage)'"></canvas>
+        
         <i title="{{'lang.myProfileAccess' | translate}}" routerLink="/profile"
-            style="cursor:pointer;z-index:1;color:white;position: absolute;left: 85px;top: 17px;width: 70px;height: 70px;background-size: cover;background-position: top center;border-radius: 50%;border: solid white;background-color:white;" [style.background-image]="'url(../rest/images?image=onlyLogo)'"></i>
-        <div class="content" style="padding-top:20px;color:white;max-height:250px;overflow-y:auto;overflow-x:hidden;">
+            style="padding: 10px 0px;cursor:pointer;z-index:1;color:white;position: absolute;left: 85px;top: 35px;width: 70px;height: 70px;background-size: cover;background-position: top center;border-radius: 50%;border: solid white;background-color:white;" [style.background-image]="'url(../rest/images?image=onlyLogo)'">
+        </i>
+        <div class="content" style="padding-bottom:20px;color:white;max-height:900px;overflow-y:auto;overflow-x:hidden;">
             <p routerLink="/profile" class="text-center" style="cursor:pointer;">{{headerService.user.firstname}}
                 {{headerService.user.lastname | uppercase}}</p>
             <mat-list>
-                <h3 mat-subheader style="color:white;">{{'lang.groups' | translate}}</h3>
+                <h3 mat-subheader style="color:white;margin-top: 60px;">{{'lang.groups' | translate}}</h3>
                 <mat-divider></mat-divider>
                 <mat-list-item *ngFor="let group of headerService.user.groups">
                     <p mat-line style="color:white;opacity:0.5;"> {{group.group_desc}} </p>
@@ -55,12 +55,12 @@
         <div style="display:flex;padding: 5px;">
             <div style="text-align:left;flex:1">
                 <a routerLink="/profile" style="color: white;padding-left: 10px;">
-                    <span class="badge action-header-profile">{{'lang.myProfile' | translate}}</span>
+                    <span style="padding: 8px;" class="badge action-header-profile">{{'lang.myProfile' | translate}}</span>
                 </a>
             </div>
             <div *ngIf="showLogout()" style="text-align:right;flex:2;">
                 <a (click)="authService.logout(true, false, true)" style="cursor:pointer; color: white;padding-right: 10px;">
-                    <span class="badge action-header-profile">{{'lang.logout' | translate}}</span>
+                    <span style="padding: 8px;"class="badge action-header-profile">{{'lang.logout' | translate}}</span>
                 </a>
             </div>
         </div>

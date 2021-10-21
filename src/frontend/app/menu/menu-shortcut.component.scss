@@ -1,10 +1,12 @@
 .button-row .mat-fab {
-    border: solid #135f7f 2px;
-    color: #135f7f;
+    border: solid #280d43 2px;
+    color: #280d43;
+    border-radius: 16px;
 }
 
 .mat-fab ::ng-deep.mat-button-wrapper {
     padding: 0px;
+    border-radius: 5px;
 }
 
 .speedDialLabel {

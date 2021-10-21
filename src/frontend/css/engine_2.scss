@@ -21,7 +21,7 @@ body {
 }
 
 .bg-head {
-    background: #135F7F;
+    background: #280d43;
     // min-height: 200px;
     color: white;
 
@@ -101,6 +101,7 @@ body {
     overflow: auto;
     overflow-y: hidden;
     display: flex;
+    margin: 5px 0px;
     padding-left: 25px;
     padding-right: 25px;
     height: 10%;
@@ -172,6 +173,7 @@ body {
 
 .mat-menu-panel {
     min-height: auto !important;
+    padding: 20px;
 }
 
 .sideBarForm {

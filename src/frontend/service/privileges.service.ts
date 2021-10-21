@@ -32,6 +32,17 @@ interface privilege {
     'comment': string; // description
 }
 
+// {
+//     'id': 'admin_shippings',
+//     'label': 'lang.mailevaAdmin',
+//     'comment': 'lang.mailevaAdminDesc',
+//     'route': '/administration/shippings',
+//     'unit': 'supervision',
+//     'style': 'fa fa-shipping-fast',
+//     'angular': true,
+//     'hasParams': false
+// },
+
 @Injectable()
 export class PrivilegeService {
 
@@ -233,16 +244,6 @@ export class PrivilegeService {
             'route': '/administration/sendmail',
             'unit': 'supervision',
             'style': 'fa fa-mail-bulk',
-            'angular': true,
-            'hasParams': false
-        },
-        {
-            'id': 'admin_shippings',
-            'label': 'lang.mailevaAdmin',
-            'comment': 'lang.mailevaAdminDesc',
-            'route': '/administration/shippings',
-            'unit': 'supervision',
-            'style': 'fa fa-shipping-fast',
             'angular': true,
             'hasParams': false
         },

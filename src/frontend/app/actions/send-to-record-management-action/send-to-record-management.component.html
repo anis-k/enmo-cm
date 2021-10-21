@@ -87,7 +87,7 @@
                     <mat-paginator [length]="100" [hidePageSize]="true" [pageSize]="10"
                         [style.display]="resources.length > 10 ? 'initial': 'none'"></mat-paginator>
                     <table *ngIf="!checking" mat-table [dataSource]="dataSource" multiTemplateDataRows
-                        class="mat-elevation-z8" style="width:100%;box-shadow: none;">
+                        class="mat-elevation-z8" style="width:100%;box-shadow: none !important;">
                         <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplay">
                             <th mat-header-cell *matHeaderCellDef style="padding-left: 10px;padding-right: 10px;">
                                 {{column !=='countArchives' ? ('lang.' + column | translate) : ''}}
