@@ -24,7 +24,7 @@ export class ListAdministrationComponent implements OnInit {
         {
             'value': 'chronoNumberShort',
             'label': this.translate.instant('lang.chronoNumberShort'),
-            'sample': 'MAARCH/2019A/1',
+            'sample': 'ENMO/2019A/1',
             'cssClasses': ['align_centerData', 'normalData'],
             'icon': ''
         },
