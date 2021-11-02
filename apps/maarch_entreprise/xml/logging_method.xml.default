@@ -20,6 +20,6 @@
         <!-- ID_MODULE is the module id -->
         <!-- REMOTE_IP is the user IP -->
         <APPLI_LOG_FORMAT>[%RESULT%][%CODE_METIER%][%WHERE%][%ID%][%HOW%][%USER%][%WHAT%][%ID_MODULE%][%REMOTE_IP%]</APPLI_LOG_FORMAT>
-        <CODE_METIER>MAARCH</CODE_METIER>
+        <CODE_METIER>ENMO</CODE_METIER>
     </METHOD>
 </ROOT>

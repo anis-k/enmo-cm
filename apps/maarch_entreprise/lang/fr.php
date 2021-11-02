@@ -4216,7 +4216,7 @@ if (!defined('_DEPARTMENT_NUMBER')) {
     define('_DEPARTMENT_NUMBER', "Département des expéditeurs");
 }
 if (!defined('_CHRONO_NUMBER_HELP')) {
-    define('_CHRONO_NUMBER_HELP', "Exemple : MAARCH/2018A/36");
+    define('_CHRONO_NUMBER_HELP', "Exemple : ENMO/2018A/36");
 }
 if (!defined('_BARCODE_HELP')) {
     define('_BARCODE_HELP', "Exemple : ABC000004");

@@ -47,7 +47,7 @@ class LogsController
             $loggingMethods[1]['LOGGER_NAME_TECH'] = 'loggerTechnique';
             $loggingMethods[1]['LOGGER_NAME_FUNC'] = 'loggerFonctionnel';
             $loggingMethods[1]['LOG_FORMAT']       = '[%RESULT%][%CODE_METIER%][%WHERE%][%ID%][%HOW%][%USER%][%WHAT%][%ID_MODULE%][%REMOTE_IP%]';
-            $loggingMethods[1]['CODE_METIER']      = 'MAARCH';
+            $loggingMethods[1]['CODE_METIER']      = 'ENMO';
         }
 
         return $loggingMethods;

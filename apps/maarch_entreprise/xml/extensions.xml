@@ -246,7 +246,7 @@
         <canConvert>true</canConvert>
     </FORMAT>
     <FORMAT>
-        <name>MAARCH</name>
+        <name>ENMO</name>
         <mime>text/plain</mime>
         <canConvert>true</canConvert>
     </FORMAT>

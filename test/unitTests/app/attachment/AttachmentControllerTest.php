@@ -27,7 +27,7 @@ class AttachmentControllerTest extends TestCase
         $aArgs = [
             'title'         => 'Nulle pierre ne peut être polie sans friction, nul homme ne peut parfaire son expérience sans épreuve.',
             'type'          => 'response_project',
-            'chrono'        => 'MAARCH/2019D/24',
+            'chrono'        => 'ENMO/2019D/24',
             'resIdMaster'   => 100,
             'encodedFile'   => $encodedFile,
             'format'        => 'txt',
@@ -137,7 +137,7 @@ class AttachmentControllerTest extends TestCase
                 $this->assertSame('A_TRA', $value['status']);
                 $this->assertSame($userInfo['id'], (int)$value['typist']);
                 $this->assertSame(1, $value['relation']);
-                $this->assertSame('MAARCH/2019D/24', $value['chrono']);
+                $this->assertSame('ENMO/2019D/24', $value['chrono']);
                 $this->assertNull($value['originId']);
                 $this->assertNotNull($value['modificationDate']);
                 $this->assertNotNull($value['modifiedBy']);
@@ -214,7 +214,7 @@ class AttachmentControllerTest extends TestCase
 
         // GET
         $aArgs = [
-            "chrono" => "MAARCH/2019D/24"
+            "chrono" => "ENMO/2019D/24"
         ];
         $fullRequest = $request->withQueryParams($aArgs);
         $response = $attachmentController->getByChrono($fullRequest, new \Slim\Http\Response());
@@ -232,7 +232,7 @@ class AttachmentControllerTest extends TestCase
 
         //Error
         $aArgs = [
-            "chrono" => "MAARCH/2019D/249888765"
+            "chrono" => "ENMO/2019D/249888765"
         ];
         $fullRequest = $request->withQueryParams($aArgs);
         $response = $attachmentController->getByChrono($fullRequest, new \Slim\Http\Response());
@@ -262,7 +262,7 @@ class AttachmentControllerTest extends TestCase
         $aArgs = [
             'title'         => 'Sujet de Mailing',
             'type'          => 'response_project',
-            'chrono'        => 'MAARCH/2019D/38',
+            'chrono'        => 'ENMO/2019D/38',
             'resIdMaster'   => 100,
             'encodedFile'   => $encodedFile,
             'format'        => 'docx',

@@ -37,7 +37,7 @@
                                     "items": {
                                         "type": "string",
                                         "maxLength": 255,
-                                        "example" : "MAARCH/2017A/91"
+                                        "example" : "ENMO/2017A/91"
                                     }
                                 },
                                 "status": {

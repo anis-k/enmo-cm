@@ -53,7 +53,7 @@ class FolderPrintControllerTest extends TestCase
         $body = [
             'title'         => 'Nulle pierre ne peut être polie sans friction, nul homme ne peut parfaire son expérience sans épreuve.',
             'type'          => 'response_project',
-            'chrono'        => 'MAARCH/2019D/14',
+            'chrono'        => 'ENMO/2019D/14',
             'resIdMaster'   => $GLOBALS['resources'][0],
             'encodedFile'   => $encodedFile,
             'format'        => 'txt',
@@ -71,7 +71,7 @@ class FolderPrintControllerTest extends TestCase
         $body = [
             'title'         => 'Nulle pierre ne peut être polie sans friction, nul homme ne peut parfaire son expérience sans épreuve.',
             'type'          => 'response_project',
-            'chrono'        => 'MAARCH/2019D/15',
+            'chrono'        => 'ENMO/2019D/15',
             'resIdMaster'   => $GLOBALS['resources'][1],
             'encodedFile'   => $encodedFile,
             'format'        => 'txt',

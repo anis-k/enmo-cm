@@ -4026,7 +4026,7 @@ if (!defined('_DEPARTMENT_NUMBER')) {
     define('_DEPARTMENT_NUMBER', "Department number");
 }
 if (!defined('_CHRONO_NUMBER_HELP')) {
-    define('_CHRONO_NUMBER_HELP', "Example : MAARCH/2018A/36");
+    define('_CHRONO_NUMBER_HELP', "Example : ENMO/2018A/36");
 }
 if (!defined('_BARCODE_HELP')) {
     define('_BARCODE_HELP', "Example : ABC000004");

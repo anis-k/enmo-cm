@@ -14,9 +14,9 @@ INSERT INTO usergroup_content (user_id, group_id, role) VALUES (24, 11, '');
 DELETE FROM contacts where id >= 1000000;
 
 -- INSTANCE A
-INSERT INTO contacts VALUES (1000000, 1, 'Custom 1', 'Custom 1', 'Custom 1', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'MAARCH LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_1/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_1"}');
-INSERT INTO contacts VALUES (1000001, 1, 'Custom 2', 'Custom 2', 'Custom 2', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'MAARCH LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_2/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_2"}');
-INSERT INTO contacts VALUES (1000002, 1, 'Custom 3', 'Custom 3', 'Custom 3', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'MAARCH LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_3/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_3"}');
+INSERT INTO contacts VALUES (1000000, 1, 'Custom 1', 'Custom 1', 'Custom 1', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'ENMO LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_1/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_1"}');
+INSERT INTO contacts VALUES (1000001, 1, 'Custom 2', 'Custom 2', 'Custom 2', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'ENMO LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_2/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_2"}');
+INSERT INTO contacts VALUES (1000002, 1, 'Custom 3', 'Custom 3', 'Custom 3', NULL, NULL, '13', 'RUE LA PREFECTURE', NULL, NULL, '99000', 'ENMO LES BAINS', NULL, NULL, NULL, '{"url": "http://cchaplin:maarch@127.0.0.1/MaarchCourrier/cs_custom_3/"}', NULL, 21, '2018-04-18 12:43:54.97424', '2020-03-24 15:06:58.16582', true, NULL, '{"m2m": "org_custom_3"}');
 
 DO $$
 BEGIN

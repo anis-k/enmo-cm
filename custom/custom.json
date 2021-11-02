@@ -3,5 +3,10 @@
         "id": "enmo-cm",
         "uri": null,
         "path": "enmo-cm"
+    },
+    {
+        "id": "enmocourrier",
+        "uri": null,
+        "path": "enmocourrier"
     }
 ]

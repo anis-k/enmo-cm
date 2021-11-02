@@ -80,7 +80,7 @@ export class SearchAdministrationComponent implements OnInit {
         {
             'value': 'getSenders',
             'label': this.translate.instant('lang.getSenders'),
-            'sample': 'Alain DUBOIS (MAARCH)',
+            'sample': 'Alain DUBOIS (ENMO)',
             'cssClasses': ['align_leftData'],
             'icon': 'fa-book'
         },

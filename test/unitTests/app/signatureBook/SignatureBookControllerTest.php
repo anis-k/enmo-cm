@@ -79,7 +79,7 @@ class SignatureBookControllerTest extends TestCase
         $body = [
             'title'         => 'Nulle pierre ne peut être polie sans friction, nul homme ne peut parfaire son expérience sans épreuve.',
             'type'          => 'response_project',
-            'chrono'        => 'MAARCH/2019D/14',
+            'chrono'        => 'ENMO/2019D/14',
             'resIdMaster'   => self::$resId,
             'encodedFile'   => $encodedFile,
             'format'        => 'docx',
@@ -225,7 +225,7 @@ class SignatureBookControllerTest extends TestCase
         $body = [
             'title'           => 'Superman Certificate of aliveness',
             'type'            => 'incoming_mail_attachment',
-            'chrono'          => 'MAARCH/2019D/14',
+            'chrono'          => 'ENMO/2019D/14',
             'resIdMaster'     => $GLOBALS['resources'][0],
             'encodedFile'     => $encodedFile,
             'format'          => 'txt',
@@ -355,7 +355,7 @@ class SignatureBookControllerTest extends TestCase
         $body = [
             'title'           => 'Dunder Mifflin order',
             'type'            => 'response_project',
-            'chrono'          => 'MAARCH/2019D/14',
+            'chrono'          => 'ENMO/2019D/14',
             'resIdMaster'     => $GLOBALS['resources'][0],
             'encodedFile'     => $encodedFile,
             'format'          => 'txt',

@@ -1037,7 +1037,7 @@ INSERT INTO templates_doctype_ext (template_id, type_id, is_generated) VALUES (9
 TRUNCATE TABLE tags;
 INSERT INTO tags (label) VALUES ('SEMINAIRE');
 INSERT INTO tags (label) VALUES ('INNOVATION');
-INSERT INTO tags (label) VALUES ('MAARCH');
+INSERT INTO tags (label) VALUES ('ENMO');
 INSERT INTO tags (label) VALUES ('ENVIRONNEMENT');
 INSERT INTO tags (label) VALUES ('PARTENARIAT');
 INSERT INTO tags (label) VALUES ('JUMELAGE');

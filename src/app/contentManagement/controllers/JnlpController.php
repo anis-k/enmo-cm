@@ -80,7 +80,7 @@ class JnlpController
 
         $tagInformation = $jnlpDocument->createElement('information');
         $tagTitle       = $jnlpDocument->createElement('title', 'Editeur de modèle de document');
-        $tagVendor      = $jnlpDocument->createElement('vendor', 'MAARCH');
+        $tagVendor      = $jnlpDocument->createElement('vendor', 'ENMO');
         $tagOffline     = $jnlpDocument->createElement('offline-allowed');
         $tagSecurity    = $jnlpDocument->createElement('security');
         $tagPermissions = $jnlpDocument->createElement('all-permissions');

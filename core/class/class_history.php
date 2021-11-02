@@ -268,7 +268,7 @@ class history
                 $logging_methods[1]['LOGGER_NAME_TECH'] = 'loggerTechnique';
                 $logging_methods[1]['LOGGER_NAME_FUNC'] = 'loggerFonctionnel';
                 $logging_methods[1]['LOG_FORMAT'] = '[%RESULT%][%CODE_METIER%][%WHERE%][%ID%][%HOW%][%USER%][%WHAT%][%ID_MODULE%][%REMOTE_IP%]';
-                $logging_methods[1]['CODE_METIER'] = 'MAARCH';
+                $logging_methods[1]['CODE_METIER'] = 'ENMO';
             }
 
             if (!isset($noXml)) {

@@ -33,7 +33,7 @@ text : return string element writted in value tag
         <separator></separator>
         <ELEMENT>
             <type>text</type>
-            <value>MAARCH</value>
+            <value>ENMO</value>
         </ELEMENT>
         <ELEMENT>
             <type>text</type>
@@ -57,7 +57,7 @@ text : return string element writted in value tag
         <separator></separator>
         <ELEMENT>
             <type>text</type>
-            <value>MAARCH</value>
+            <value>ENMO</value>
         </ELEMENT>
         <ELEMENT>
             <type>text</type>

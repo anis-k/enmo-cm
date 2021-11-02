@@ -9,7 +9,7 @@
             <!-- base DN (que pour openLDAP, ne pas remplir si adLDAP) -->
             <baseDN>DC=maarch,DC=com</baseDN>
             <!-- prefixe les logins si saisi -->
-            <prefix_login>MAARCH</prefix_login>
+            <prefix_login>ENMO</prefix_login>
             <!-- suffix les logins si saisi -->
             <suffix_login>@maarch-les-bains.com</suffix_login>
             <!-- cryptage de la communication ( true or false) -->
